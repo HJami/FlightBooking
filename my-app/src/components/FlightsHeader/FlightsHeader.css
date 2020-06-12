@@ -1,0 +1,29 @@
+.FlightsHeader > div {
+    display: flex;
+    flex-direction: row;
+}
+
+.FlightsHeader > div > div {
+    width: 50%;
+}
+
+
+.FlightsHeader > .Header1 {
+ background-color: rgba(7, 17, 82, 0.74);
+ color: white;
+ font: bold;
+ font-size: 20px;
+}
+
+.FlightsHeader > .Header1 > div {
+    display: flex;
+    flex-direction: row;
+}
+
+.FlightsHeader > .Header1 > div > div {
+    width: 50%;
+}
+
+.hidden {
+  visibility: hidden;
+}

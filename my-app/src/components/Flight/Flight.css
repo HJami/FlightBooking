@@ -1,0 +1,49 @@
+.Flight {
+    display: flex;
+    flex-direction: row;
+}
+
+.divOutbound, .divInbound {
+  width: 50%;
+  border-style: solid;
+  border-color: grey;
+  border-width: 1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+.InnerFlightData {
+    display: flex;
+    flex-direction: row;
+}
+
+.InnerFlightData > div{
+    width: 33.3%;
+}
+
+.timeloc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.time, .loc {
+    width: 50%;
+}
+
+.time {
+    text-align: right;
+    margin-right: 2px;
+}
+
+.loc {
+    font-size: 25px;
+    text-align: left;
+    margin-left: 2px;
+    color: grey;
+}
+
+.FlightNo {
+    margin-bottom: 10px;
+}

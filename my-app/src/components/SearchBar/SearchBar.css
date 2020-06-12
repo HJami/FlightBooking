@@ -1,0 +1,15 @@
+#dvSearchBar input , select {
+  margin-right: 15px;
+}
+
+#dvSearchBar {
+    margin-top: 20px;
+}
+
+#btnSearchFlights {
+    width: 200px;
+}
+
+#dvSearchAction {
+    margin-top: 20px;
+}
