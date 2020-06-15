@@ -1,3 +1,7 @@
+.FlightWrapperHighlight {
+ background-color: orange;
+}
+
 .Flight {
     display: flex;
     flex-direction: row;
@@ -46,4 +50,20 @@
 
 .FlightNo {
     margin-bottom: 10px;
+}
+
+.ReserveBtn{
+}
+
+.ReserveBtn > input {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    width: 33%;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
