@@ -26,7 +26,7 @@ class Flights extends React.Component {
                 {
                   this.props.SearchData.map(
                     (flight, index) => {
-                      return (<Flight key = {index} flightData = { flight } />)
+                      return (<Flight key = {index} flightData = { flight } reserveClicked = {this.props.reserveClicked}/>)
                     }
                 )}
             </div>

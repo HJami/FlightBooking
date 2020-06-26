@@ -1,8 +1,8 @@
-#dvSearchBar input , select {
+.dvSearchBar input , select {
   margin-right: 15px;
 }
 
-#dvSearchBar {
+.dvSearchBar {
     margin-top: 20px;
 }
 

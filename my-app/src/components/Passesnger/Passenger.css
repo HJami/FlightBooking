@@ -1,0 +1,21 @@
+.PassengerData div {
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+.PassengerData div:nth-child(even) {
+    background-color: #e4cccc;
+}
+
+.PassengerData div:nth-child(odd) {
+    background-color: #cce0e4;
+}
+
+.PassengerHeader {
+    background-color: #d9ff003d;
+    height: 50px;
+    line-height: 50px;
+    font-style: italic;
+}

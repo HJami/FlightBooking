@@ -2,13 +2,17 @@ import React from 'react';
 import './App.css';
 import SearchBar from './components/SearchBar/SearchBar';
 import Flights from './components/Flights/Flights';
+import Passengers from './components/Passengers/Passengers'
 
 class App extends React.Component {
   
   constructor () {
     super();
     this.state = {
-      searchFlights: []
+      searchFlights: [],
+      flightSelected: false,
+      adultCount: 0,
+      childenCount: 0
     }
     //console.log(state);
   }
@@ -19,18 +23,31 @@ class App extends React.Component {
     return data;
   }
   
-  searchBtnClick = () => {
+  searchBtnClick = (obj) => {
     var data = this.getFlights();
-    this.setState({searchFlights: data});
-    console.log(data);
+    this.setState({searchFlights: data, adultCount: obj.adultCount, childrenCount: obj.childrenCount});
+  }
+
+  reserveClicked = () => {
+    this.setState({flightSelected: true});
   }
 
   render = function () {
     return (
       <div className="App">
         <div className="App-body">
+          {
+            !this.state.flightSelected ?
           <SearchBar searchBtnClick = {this.searchBtnClick}/>
-          <Flights SearchData = {this.state.searchFlights}/>
+          : 
+          ""}
+          {
+            !this.state.flightSelected ?
+              <Flights SearchData = {this.state.searchFlights} reserveClicked = {this.reserveClicked}/>
+             :
+            <Passengers flightSelected = {this.state.flightSelected} adultCount = {this.state.adultCount} childernCount = {this.state.childrenCount}/>
+          }
+          
         </div>
       </div>
     );

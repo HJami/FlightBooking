@@ -21,9 +21,13 @@ class Flight extends React.Component {
       this.setState({isEntered: false, isLeft: true});
     }
 
+    reserveBtnClicked = () => {
+      this.props.reserveClicked();
+    }
+
     
     render = function() {
-      console.log(this.props.flightData);
+      //console.log(this.props.flightData);
       return (
             <div className = {this.state.isEntered === true ? "FlightWrapperHighlight" : "" } onMouseEnter = {this.divEntered} onMouseLeave = {this.divLeft}>
               <div className="Flight">
@@ -115,7 +119,7 @@ class Flight extends React.Component {
               
               </div>
               <div style = {{display: this.state.isEntered === true ? 'block' : 'none'}} className = "ReserveBtn"> 
-                <input type="button" value="Make a Booking!"/>
+                <input type="button" value="Make a Booking!" onClick={this.reserveBtnClicked}/>
               </div> 
             </div>
 
