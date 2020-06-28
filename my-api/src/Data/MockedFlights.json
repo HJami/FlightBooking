@@ -1,0 +1,132 @@
+[
+    {
+        "Outbound": {
+            "FlightNo": 123,
+            "DepartureTime": "10:30",
+            "DepartureLoc": "MEL",
+            "DepartureDate": "10/06/2020",
+            "DepartureLocation": "Melbourne",
+            "FlightDuration": "5h",
+            "ArrivalTime": "14:30",
+            "ArrivalLoc": "PER",
+            "ArrivalDate": "10/06/2020",
+            "ArrivalLocation": "Perth"
+        },
+        "Inbound": {
+            "FlightNo": 321,
+            "DepartureTime": "14:30",
+            "DepartureLoc": "PER",
+            "DepartureDate": "30/06/2020",
+            "DepartureLocation": "Perth",
+            "FlightDuration": "6h",
+            "ArrivalTime": "14:30",
+            "ArrivalLoc": "PER",
+            "ArrivalDate": "30/06/2020",
+            "ArrivalLocation": "Melbourne"
+        }
+    },
+    {
+        "Outbound": {
+            "FlightNo": 123,
+            "DepartureTime": "10:30",
+            "DepartureLoc": "MEL",
+            "DepartureDate": "10/06/2020",
+            "DepartureLocation": "Melbourne",
+            "FlightDuration": "5h",
+            "ArrivalTime": "14:30",
+            "ArrivalLoc": "PER",
+            "ArrivalDate": "10/06/2020",
+            "ArrivalLocation": "Perth"
+        },
+        "Inbound": {
+            "FlightNo": 321,
+            "DepartureTime": "14:30",
+            "DepartureLoc": "PER",
+            "DepartureDate": "30/06/2020",
+            "DepartureLocation": "Perth",
+            "FlightDuration": "6h",
+            "ArrivalTime": "14:30",
+            "ArrivalLoc": "PER",
+            "ArrivalDate": "30/06/2020",
+            "ArrivalLocation": "Melbourne"
+        }
+    },
+    {
+        "Outbound": {
+            "FlightNo": 123,
+            "DepartureTime": "10:30",
+            "DepartureLoc": "MEL",
+            "DepartureDate": "10/06/2020",
+            "DepartureLocation": "Melbourne",
+            "FlightDuration": "5h",
+            "ArrivalTime": "14:30",
+            "ArrivalLoc": "PER",
+            "ArrivalDate": "10/06/2020",
+            "ArrivalLocation": "Perth"
+        },
+        "Inbound": {
+            "FlightNo": 321,
+            "DepartureTime": "14:30",
+            "DepartureLoc": "PER",
+            "DepartureDate": "30/06/2020",
+            "DepartureLocation": "Perth",
+            "FlightDuration": "6h",
+            "ArrivalTime": "14:30",
+            "ArrivalLoc": "PER",
+            "ArrivalDate": "30/06/2020",
+            "ArrivalLocation": "Melbourne"
+        }
+    },
+    {
+        "Outbound": {
+            "FlightNo": 123,
+            "DepartureTime": "10:30",
+            "DepartureLoc": "MEL",
+            "DepartureDate": "10/06/2020",
+            "DepartureLocation": "Melbourne",
+            "FlightDuration": "5h",
+            "ArrivalTime": "14:30",
+            "ArrivalLoc": "PER",
+            "ArrivalDate": "10/06/2020",
+            "ArrivalLocation": "Perth"
+        },
+        "Inbound": {
+            "FlightNo": 321,
+            "DepartureTime": "14:30",
+            "DepartureLoc": "PER",
+            "DepartureDate": "30/06/2020",
+            "DepartureLocation": "Perth",
+            "FlightDuration": "6h",
+            "ArrivalTime": "14:30",
+            "ArrivalLoc": "PER",
+            "ArrivalDate": "30/06/2020",
+            "ArrivalLocation": "Melbourne"
+        }
+    },
+    {
+        "Outbound": {
+            "FlightNo": 123,
+            "DepartureTime": "10:30",
+            "DepartureLoc": "MEL",
+            "DepartureDate": "10/06/2020",
+            "DepartureLocation": "Melbourne",
+            "FlightDuration": "5h",
+            "ArrivalTime": "14:30",
+            "ArrivalLoc": "PER",
+            "ArrivalDate": "10/06/2020",
+            "ArrivalLocation": "Perth"
+        },
+        "Inbound": {
+            "FlightNo": 321,
+            "DepartureTime": "14:30",
+            "DepartureLoc": "PER",
+            "DepartureDate": "30/06/2020",
+            "DepartureLocation": "Perth",
+            "FlightDuration": "6h",
+            "ArrivalTime": "14:30",
+            "ArrivalLoc": "PER",
+            "ArrivalDate": "30/06/2020",
+            "ArrivalLocation": "Melbourne"
+        }
+    }                
+]

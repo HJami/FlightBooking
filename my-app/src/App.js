@@ -3,6 +3,7 @@ import './App.css';
 import SearchBar from './components/SearchBar/SearchBar';
 import Flights from './components/Flights/Flights';
 import Passengers from './components/Passengers/Passengers'
+import Config from "./config.json";
 
 class App extends React.Component {
   
@@ -18,14 +19,17 @@ class App extends React.Component {
   }
 
   getFlights() {
-    var data = require('./Data/MockedFlights.json');
-    //console.log(data);
-    return data;
+    //var data = require('./Data/MockedFlights.json');
+    
+    return (fetch(Config.apiURL).then(res => res.json()));
   }
   
   searchBtnClick = (obj) => {
-    var data = this.getFlights();
-    this.setState({searchFlights: data, adultCount: obj.adultCount, childrenCount: obj.childrenCount});
+    this.getFlights()
+        .then((data) => {
+          this.setState({searchFlights: data, adultCount: obj.adultCount, childrenCount: obj.childrenCount});
+        });
+    
   }
 
   reserveClicked = () => {
